@@ -4,7 +4,6 @@
 
 This program simulates a queue line of people using a C++ struct. Each person has a name and a number representing their position in line. The program processes each person in "FIFO" order and prints a SpongeBob themed pirate greeting. When all people have been processed, the program prints a closing message.
 
----
 
 ## Inputs
 
@@ -20,7 +19,6 @@ The queue is preloaded with the following five names:
 
 Each person is assigned a number based on their position in line.
 
----
 
 ## Outputs
 
@@ -36,8 +34,6 @@ Hello matey! Squidward, you are 4th in line!
 Hello matey! Mr.Krabs, you are 5th in line!
 We are now closed, thanks for coming!
 ```
-
----
 
 ## How the Program Works
 
@@ -61,7 +57,6 @@ We are now closed, thanks for coming!
   * moving the front index forward
   * decreasing the count
 
----
 
 ## Compile and Run Instructions
 
@@ -77,7 +72,6 @@ g++ main.cpp queue.cpp -o program
 ./program
 ```
 
----
 
 ## Source Files Included
 
@@ -85,7 +79,6 @@ g++ main.cpp queue.cpp -o program
 * `queue.cpp`
 * `queue.h`
 
----
 
 ## Program Testing
 
